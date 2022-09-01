@@ -1,0 +1,697 @@
+
+:root{
+  --header-color: #373737;
+  --card-back-color:#242424;
+  --base-front-color:#026eb4;
+  --card-header-color: #424242;
+}
+
+
+body form *:not(a){
+  .outline: 1px solid red;
+  color: white !important;
+}
+
+*{
+  font-family: sans-serif !important;
+  color:white;
+  
+}
+*{
+  color-scheme: dark;
+}
+
+body{
+  background-color: #0b0b0b;
+}
+
+.panHeader,#div_login_right_side,#td_Footer{
+  display:none;
+}
+/*login*/
+#tableMain > tbody > tr:nth-child(2) > td > table > tbody > tr > td.login_right_side{
+  width:0;
+}
+#tdIstitute > div:nth-child(2){
+  display:flex;
+  justify-content:center;
+  text-transform:uppercase;
+  
+}
+#tdIstitute > div:nth-child(2)::after{
+  content:"SÁLÁLÁLÁLÁ";
+  font-size:.9rem;
+  margin-left:2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+#td_LeftImage,.login_background_table#tableMain{
+  background:none;
+}
+#info_table_center_container_div{
+  opacity:.1;
+  transition:.2s ease;
+}
+#info_table_center_container_div:hover{
+  opacity:1;
+}
+#tableMain > tbody > tr:nth-child(2) > td > table > tbody > tr > td.login_left_side{
+  background: #1a1a1a;
+  border-radius:2rem;
+  padding:1rem;
+  
+}
+
+/*timetable*/
+.fbutton{
+  padding:0!important;
+}
+#personTimetable_chklTimetableType input,label,#upFunction_c_common_timetable_upParent_tabOrarend_ctl00_up_timeTablePerson_upMaxLimit_personTimetable_upFilter > table > tbody > tr:nth-child(2) > td.tableRowData input{
+  margin:.2rem !important;
+  vertical-align:middle;
+}
+#personTimetable_chklTimetableType td,#upFunction_c_common_timetable_upParent_tabOrarend_ctl00_up_timeTablePerson_upMaxLimit_personTimetable_upFilter > table > tbody > tr:nth-child(2) > td.tableRowData td{
+  padding:.1rem;
+  border-right:2px solid gray;
+}
+
+#calhead > div.cHead > div.ftitle{
+  display:none;
+}
+#caltoolbar > table > tbody > tr:first-child > td *,#caltoolbar > table > tbody > tr:nth-child(2) *{
+  padding: 0rem !important;
+  border:none!important;
+}
+#caltoolbar > table > tbody > tr:first-child > td{
+  display:flex!important;
+  justify-content:center!important;
+  height:3rem!important;
+  align-items:center!important;
+}
+#caltoolbar{
+  background: var(--header-color);
+  border-radius:1rem;
+  padding:.3rem !important;
+}
+
+#caltoolbar > table > tbody > tr:first-child > td > div.fbutton{
+  background: var(--card-back-color);
+  border-radius:.5rem!important;
+  display:flex!important;
+  align-items:center!important;
+  border:none!important;
+  padding:.3rem !important;
+  margin: 0 .2rem;
+  transition:.2s ease;
+}
+
+#caltoolbar > table > tbody > tr:nth-child(2) div{
+  background: var(--card-back-color);
+  border-radius:1rem;
+  display:flex;
+  align-items:center;
+  border:none;
+  margin: 0 .2rem;
+  transition:.2s ease;
+  padding: 0 .2rem!important;
+}
+#caltoolbar > table > tbody > tr:nth-child(2) div a{
+  color:white;
+  text-decoration:none;
+}
+#caltoolbar > table > tbody > tr:first-child > td > div:hover,#caltoolbar > table > tbody > tr:nth-child(2) div:hover{
+  background: var(--base-front-color);
+}
+#caltoolbar div span{
+  background: none;
+  display:flex;
+  align-items:center;
+  text-transform:uppercase;
+  float:unset;
+  border:none!important;
+}
+span.fprev,span.fnext{
+  position:relative;
+}
+span.fprev::after,span.fnext::after{
+  content:'';
+  background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Fwhite-arrow-png-24.png&f=1&nofb=1') no-repeat !important;
+  background-size: .8rem !important;
+  background-position: 50% !important;
+  position:absolute;
+  inset: 0 0 0 0;
+  transform: rotate(90deg)
+}
+span.fnext{
+  position:relative;
+}
+span.fnext::after{
+  transform: rotate(-90deg)
+}
+#BBIT_DP_INNER,#BBIT_DP_INNER > thead,#BBIT_DP_INNER > thead > tr > th,#BBIT_DP_CONTAINER > table > tbody > tr:nth-child(3) > td{
+  background:black !important;
+}
+div.btnseparator{
+  display:none !important;
+}
+
+/*maga a fos orarendcucc*/
+
+#dvCalMain{
+  border-radius:1rem !important;
+  overflow:hidden;
+  margin-top:.5rem;
+} 
+#dvwkcontaienr > table > tbody > tr:nth-child(1){
+  height:2rem!important;
+  text-transform: uppercase;
+}
+#dvwkcontaienr,#tgTable > tbody > tr:nth-child(2) > td.tg-times{
+  background: var(--card-header-color) !important;
+}
+.wk-allday td{
+  background: var(--card-back-color) !important;
+}
+#tgspanningwrapper > div > div{
+  border:1px solid gray;
+}
+#tgTable > tbody > tr:nth-child(2) > td{
+  border-right:1px solid gray;
+  background: var(--card-back-color) !important;
+}
+.bubble-table, .bubble-closebutton#bubbleClose1{
+  transform:translateY(7rem);
+}
+.bubble-table *{
+  background: #818181!important;
+  border:none;
+  border-radius:1rem;
+}
+#prong2,#bbit-cal-buddle > table > tbody > tr:nth-child(3),#bbit-cal-buddle > table > tbody > tr:nth-child(1){
+  display:none !important;
+}
+
+
+/* SIDEMENU */
+.leftbuttons_td{
+  display: none;
+}
+#upBoxes_leftbox .Gadget{
+  background-color: var(--card-back-color);
+    border-radius: 1rem;
+  margin: 0 0 .5rem 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+#upBoxes_leftbox .Gadget td{
+  background: none;
+}
+.Gadget{
+  max-width: 100%;
+}
+.Gadget > tbody > tr:first-of-type{
+  background-color: var(--header-color);
+  height: 2rem
+   
+}
+.Gadget > tbody > tr:first-of-type span{
+  color: white;
+  font-size: 1rem;
+}
+
+.Gadget .GadgetFooterLeftCorner, .GadgetFooterRightCorner,
+.GadgetFooter,
+.gadgetbodyright{
+  display: none;
+}
+
+.messagetable tr a{
+  background-color: var(--header-color) !important;
+  border-radius: .5rem;
+  padding: .5rem;
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: .5rem;
+  transition: .2s ease;
+}
+.messagetable tr a:hover{
+  background-color: #2b2b2b !important;
+}
+.messagetable td{
+  padding: 0 !important;
+}
+
+.favorite_table tr a{
+  background-color: var(--header-color) !important;
+  border-radius: .5rem;
+  padding: .5rem;
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: .5rem;
+  width: 100%;
+  transition: .2s ease;
+}
+.favorite_table tr a:hover{
+  background-color: #2b2b2b !important;
+}
+
+.favorite_table td{
+  padding: 0 !important;
+}
+.favorite_remove_button_td{
+  display: ;
+}
+
+/* MENU */
+.top_menu_wrapper *{
+  background-image: none;
+  color: white !important;
+}
+
+#mb1 li.menu-parent,
+#mb1 li.menu-parent.has-target{
+  color: white !important;
+}
+ul.menubar li.menu-parent{
+  background: var(--header-color);
+  margin: 0 .5rem .5rem  0;
+  border-radius: .5rem;
+  padding: .5rem;
+  transition: .2s ease;
+}
+#mb1 li.menu-parent.has-target:hover{
+  color: white !important;
+}
+ul.menubar li.menu-parent:hover{
+  color: white !important;
+  background-color: #2b2b2b !important;
+  
+}
+.top_menu_right{
+  display:none;
+}
+/*logo*/
+.top_menu_left{
+  position:relative;
+  width:10rem;
+  background: url("https://neptun.pte.hu/sites/neptun.pte.hu/files/files/neptun-logo-fekvo.png") no-repeat !important;
+  background-size: auto 2rem !important;
+  background-position:0 50% !important;
+}
+.top_menu_left::after{
+  content:"RAKÁS SZAR ÁÁÁÁÁÁÁÁÁ";
+  background: var(--base-front-color);
+  opacity:0;
+  transition:.2s ease;
+}
+.top_menu_left:hover::after{
+  opacity:1;
+}
+.top_menu_wrapper ul.menu li{
+  border-radius: .5rem;
+  margin: .5rem;
+  padding: .5rem;
+  background: var(--header-color) !important;
+  border: none;
+  font-weight: normal;
+  font-size: smaller;
+}
+.contextdiv{
+  padding: .5rem 0 .5rem 0;
+}
+.contextdiv .grid_contextheader,.grid_contextfooter{
+  display:none;
+}
+.contextdiv td{
+  height:1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,.05) !important;
+}
+.top_menu_wrapper ul.menu li:hover,.contextdiv td[aria-disabled="false"]:hover{
+  background: #2b2b2b !important;
+}
+.contextdiv td[aria-disabled="true"]{
+  opacity: .2;
+  pointer-events: none;
+}
+.top_menu_wrapper ul.menu,.contextdiv{
+  margin-top: .8rem !important;
+  .display: block !important;
+  border-radius: 1rem !important;
+  background: var(--card-back-color) !important;
+  color: white !important;
+  box-shadow: 0 0 5rem black;
+  overflow:hidden;
+}
+
+.menuitemfirst{
+  display:none;
+}
+
+
+/*sarga box*/
+.infopanel_icon{
+  display:none;
+}
+.infopanel *{
+  background: none !important;
+  border:none !important;
+}
+.infopanel .messageBoxContent{
+  background: #dab77663 !important;
+  border-radius: 1rem;
+  padding: 1rem !important;
+  border: 2px solid #d2a157 !important;
+}
+
+/* MIDDLE SECTION */
+
+td.function  *:not(input,.button,.mainfunction_item,span){
+  background:none;
+  border:none;
+}
+.FunctionHeader,.FunctionHeaderRightCorner,.FunctionHeaderLeftCorner,.FunctionFooterLeftCorner,.FunctionFooterRightCorner,.FunctionRightSide,.FunctionLeftSide{
+  background:none;
+}
+td.function .scrollablebody tr,.ui-dialog .scrollablebody tr{
+  background: var(--header-color);
+  border:none;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  
+}
+td.function .scrollablebody tr:hover,.ui-dialog .scrollablebody tr:hover{
+  background: #2b2b2b;
+  border:none;
+}
+.function_table{
+  background: var(--card-back-color) !important;
+  overflow:hidden;
+  border:none;
+  border-radius: 1rem;
+}
+.function_table > tbody > tr:first-child{
+  display:none;
+}
+
+.button{
+  background-color: var(--base-front-color) !important;
+}
+h1{
+  font-size: 1.5rem !important;
+  color: white !important;
+}
+#function_tableheader{
+  background-color: var(--header-color);
+}
+
+.footer_table{
+  display:none;
+}
+
+.img_excel,.img_print,.img_pin,.img_search{
+  height: 2rem;
+}
+
+.boxestable{
+  margin-top:0!important;
+}
+
+td.contextcell{
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_272255.png&f=1&nofb=1') no-repeat !important;
+  background-size: 40% !important;
+  background-position: .5rem .5rem !important;
+  background-position: 0 0;
+  filter: invert();
+}
+
+/*MODALS*/
+
+.ui-dialog,.ui-dialog *{
+  background: none !important;
+  border:none !important;
+}
+
+.ui-dialog{
+  background: var(--card-back-color) !important;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding:0;
+}
+div.ui-widget-overlay.ui-front{
+  background: black;
+}
+.ui-dialog-title{
+  font-size: 1.5rem;
+  display:flex;
+  justify-content:center;
+}
+.ui-dialog-titlebar{
+  background: #4242427d !important;
+  border-radius: 0;
+  height:2rem;
+  backdrop-filter: blur(1rem);
+}
+.ui-dialog-footerbar .ui-button{
+  margin: .5rem !important;
+}
+.ui-dialog-titlebar-maximize{
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fmaximize-window-xxl.png&f=1&nofb=1') !important;
+  background-size: 90%!important;
+  background-position: 0 0!important;
+  background-repeat: no-repeat!important;
+}
+.ui-dialog-titlebar-close{
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fcancel-512.png&f=1&nofb=1') !important;
+  background-size: 90%!important;
+  background-position: 0 0!important;
+  background-repeat: no-repeat!important;
+}
+.readmessage_editor{
+  overflow:auto auto;
+}
+
+
+
+
+/*tables*/
+
+table{
+  .border-bottom: 1px solid #242424 !important;
+}
+table td:not(.left_boxes):not(.function):not(#gridcontainer *),#upFilter_bodytable > tbody > tr{
+  vertical-align: middle !important;
+}
+td.tableRowData{
+  display:flex;
+}
+table.table_body,.searchpanel{
+  border-radius: .5rem !important;
+  overflow:hidden;
+  padding: .5rem !important;
+}
+table > thead,.ui-dialog .table_body thead{
+  background-color:#424242 !important;
+  height:3rem;
+}
+.searchpanel,.ui-dialog .table_body{
+  background-color:var(--header-color) !important;
+}
+.ui-dialog .scrollablebody tr:hover{
+  background: #2b2b2b !important;
+}
+.scrollablebody tr{
+  height: 2rem;
+}
+.scrollablebody td,.ui-dialog .table_body{
+  height: 2rem;
+  border-bottom: 1px solid var(--card-back-color) !important;
+}
+#h_addsubjects_gridSubjects_bodytable tr.Row1_Bold td, #Addsubject_course1_gridCourses_bodytable tr.Row1_sel td, #Addsubject_course1_gridCourses_grid_body_div tr.Row1_sel td, #Addsubject_course1_gridCourses_bodytable tr.Row1_Bold_sel td, #Addsubject_course1_gridCourses_grid_body_div tr.Row1_Bold_sel td, #h_addsubjects_gridSubjects_bodytable tr.context_selectedrow td{
+  background-color: #2b2b2b !important;
+}
+tr.context_selectedrow > td.contextcell{
+  filter:invert(0);
+}
+
+div#mainPageHeader{
+  padding: .2rem .8rem .2rem 0;
+}
+
+/*INPUTS*/
+a#lbtnQuit{
+  color: white;
+}
+.top_logout_link{
+  padding-right:1.5rem
+}
+.button,input[type="button"],input[type="submit"],.mainfunction_item,.gridbutton,.GadgetMenuItem,a#lbtnQuit{
+  min-height: 2rem;
+  padding: .5rem 1rem .5rem 1rem !important;
+  background:var(--base-front-color)!important;
+  border: none;
+  border-radius:.5rem;
+  text-transform: uppercase;
+  box-shadow: none;
+ margin: .5rem 0 .5rem 0!important;
+  font-size: 100%;
+}
+.button:hover,input[type="button"]:hover,input[type="submit"]:hover,a#lbtnQuit:hover{
+  filter: brightness(.8);
+  cursor: pointer !important;
+  text-decoration:none !important;
+}
+.mainfunction_item,.gridbutton,.GadgetMenuItem{
+  min-height: .5rem !important;
+  padding: .3rem 1rem .3rem 1rem !important;
+  background:#424242!important;
+  border:none;
+  border-radius:1rem;
+  text-transform: uppercase;
+  margin: .3rem !important;
+}
+
+.mainfunction_item:hover,.GadgetMenuItem:hover{
+  background:var(--base-front-color)!important;
+  text-decoration:none;
+  border-radius: 1rem;
+}
+input.gridbutton{
+  height:unset;
+  margin: .3rem!important;
+  vertical-align: middle !important;
+}
+
+select,input[type="text"],input[type="password"]{
+  background-color: var(--card-back-color) !important;
+  height: 1.5rem !important;
+  border-radius: .5rem;
+  margin: .2rem 0!important;
+  border:1px solid rgba(255,255,255,.3) !important;
+  
+}
+
+/*ICONS*/
+.exceltd,.printtd,.fixheadertd,.searchtd{
+  position: relative;
+}
+.exceltd::after{
+  content:"";
+  pointer-events: none;
+  background: var(--card-back-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff0%2Fba%2Fab%2Ff0baabc7a94a50448da9fb2d9508d450.png&f=1&nofb=1');
+  background-size: 60%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.printtd::after{
+  content:"";
+  pointer-events: none;
+  background: var(--card-back-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fgoogle%2Fnoto-emoji-objects%2F1024%2F62827-printer-icon.png&f=1&nofb=1');
+  background-size: 60%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.fixheadertd::after{
+  content:"";
+  pointer-events: none;
+  background: var(--card-back-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fcolicon%2F24%2Fpin-512.png&f=1&nofb=1');
+  background-size: 60%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.searchtd::after{
+  content:"";
+  pointer-events: none;
+  background: var(--card-back-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconpacks.net%2Ficons%2F2%2Ffree-magnifier-icon-2915-thumb.png&f=1&nofb=1');
+  background-size: 60%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.gadgetbutton[title="Frissítés"]{
+  display:none;
+}
+.GadgetHeaderPanelButtonLeftMenu,.favorite_remove_button_td{
+  position:relative;
+}
+.GadgetHeaderPanelButtonLeftMenu::after{
+  content:"";
+  pointer-events: none;
+  background: var(--header-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fcancel-512.png&f=1&nofb=1');
+  background-size: 40%;
+  background-position: 1.6rem .4rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.favorite_remove_button_td::after{
+  content:"";
+  pointer-events: none;
+  background: var(--card-back-color) url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fcancel-512.png&f=1&nofb=1');
+  background-size: 50%;
+  background-position: .2rem .5rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.upFilter_searchpanel_collapsedimage{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fcancel-512.png&f=1&nofb=1') !important;
+  background-size: 50%;
+}
+
+/*ajax motherf*cker*/
+.sda .ajax__tab_active *,
+.sda .ajax__tab_header[role="tablist"] *{
+  background: none !important;
+}
+.sda .ajax__tab_header[role="tablist"] a{
+  background: var(--header-color) !important;
+  border-radius:.5rem .5rem 0 0;
+}
+.sda .ajax__tab_header[role="tablist"] .ajax__tab_tab{
+   padding: .2rem .8rem !important;
+  display:flex;
+  align-items:center;
+}
+.sda .ajax__tab_header[role="tablist"] .ajax__tab_active .ajax__tab_tab{
+ background:var(--base-front-color) !important;
+}
+.sda .ajax__tab_header[role="tablist"] .ajax__tab_active .ajax__tab_tab:focus{
+  outline:none;
+}
+#form1 > fieldset > table.main_function_table > tbody > tr > td.function > table > tbody > tr:nth-child(4) > td:nth-child(2),.grid_pagertable,#h_cashin_gridCashIn_gridmaindiv > table.grid_pagertable > tbody > tr > td.grid_topfunctionpanel > table > tbody > tr > td{
+  padding: .5rem;
+}
+
+/*targyfelvetel btn*/
+
+td[role="gridcell"] span.link{
+  text-decoration:none !important;
+  color:white !important;
+}
+.scrollablebody td[role="gridcell"]:nth-last-child(3) > span{
+  background: var(--base-front-color)!important;
+  padding:.2rem .5rem;
+  border-radius:1rem;
+}
+
+@supports (backdrop-filter: blur(1rem)){
+  .top_menu_wrapper ul.menu,.contextdiv,.ui-dialog{
+    background: rgba(36, 36, 36,0.5) !important;
+    backdrop-filter: blur(1rem);
+  }
+  .top_menu_wrapper ul.menu li{
+    background: rgba(255, 255, 255,0.05) !important;
+  }
+  }
+
+
