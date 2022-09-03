@@ -1,7 +1,9 @@
 # SexyNeptun
 Neptunhoz userscript, hogy normálisan nézzen ki, amennyire lehet.
 
-Userscript futtató bővítmény pl:   https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
+<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js">Download</a>
+
+Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a> 
 
 
 - a neptun PowerUp-al is működik
