@@ -1,7 +1,8 @@
 # SexyNeptun
 Neptunhoz userscript, hogy normálisan nézzen ki, amennyire lehet.
 
-<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js">Download</a>
+
+<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js">Download / Add to Violent or Tampermonkey</a>
 
 Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a> 
 
