@@ -1,7 +1,7 @@
 # SexyNeptun
 Neptunhoz userscript, hogy normálisan nézzen ki, amennyire lehet.
 
-Userscript futtató bővítmények: https://www.tampermonkey.net   VAGY   https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
+Userscript futtató bővítmény pl:   https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
 
 
 - a neptun PowerUp-al is működik
@@ -9,6 +9,8 @@ Userscript futtató bővítmények: https://www.tampermonkey.net   VAGY   https:
 - bármilyen themecolor
 - fade az oldalak között
 - szebb icon-ok és gombok
+
+-még dev alatt
 
 ![image](https://user-images.githubusercontent.com/65504542/188287113-5831e2fb-f327-431a-afc2-d5dd12ff682c.png)
 ![image](https://user-images.githubusercontent.com/65504542/188286880-ab42591b-2742-4e41-9c00-c3bbc815f4e5.png)
