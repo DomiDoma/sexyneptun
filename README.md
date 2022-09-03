@@ -2,10 +2,10 @@
 Neptunhoz userscript, hogy normálisan nézzen ki, amennyire lehet.
 
 1.
-Userscript futtató bővítmény pl: <a target="_blank" href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a>
+Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank">ViolentMonkey</a>
 
 2.
-<a target="_blank" href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js">Download / Add to Violent or Tampermonkey</a>
+<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js" target="_blank">Download / Add to Violent or Tampermonkey</a>
 
 - a neptun PowerUp-al is működik
 - átlátható, letisztult design
