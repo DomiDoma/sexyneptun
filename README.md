@@ -13,7 +13,7 @@ Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore
 - fade az oldalak között
 - szebb icon-ok és gombok
 
--még dev alatt
+- még dev alatt
 
 ![image](https://user-images.githubusercontent.com/65504542/188287113-5831e2fb-f327-431a-afc2-d5dd12ff682c.png)
 ![image](https://user-images.githubusercontent.com/65504542/188286880-ab42591b-2742-4e41-9c00-c3bbc815f4e5.png)
