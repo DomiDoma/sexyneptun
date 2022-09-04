@@ -14,7 +14,6 @@ Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore
 - a neptun PowerUp-al is működik
 - átlátható, letisztult design
 - bármilyen themecolor
-- fade az oldalak között
 - szebb icon-ok és gombok
 - még dev alatt
 
