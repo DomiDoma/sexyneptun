@@ -7,7 +7,6 @@ Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore
 2.
 <a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js" target="_blank">Download / Add to Violent or Tampermonkey</a>
 
-<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun_firefox.user.js" target="_blank">Download / Add to Violent or Tampermonkey (FIREFOX)</a>
 
 
 
