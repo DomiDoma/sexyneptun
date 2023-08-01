@@ -5,7 +5,9 @@ Neptunhoz userscript, hogy normálisan nézzen ki, amennyire lehet.
 Userscript futtató bővítmény pl: <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank">ViolentMonkey</a>
 
 2.
-<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js" target="_blank">Download / Add to Violent or Tampermonkey</a>
+<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun.user.js" target="_blank">Download / Add to Violent or Tampermonkey CHROMIUM</a>
+<br>
+<a href="https://github.com/DomiDoma/sexyneptun/releases/latest/download/sexyneptun_firefox.user.js" target="_blank">Download / Add to Violent or Tampermonkey FIREFOX</a>
 
 
 
