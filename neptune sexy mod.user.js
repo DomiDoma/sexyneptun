@@ -15,10 +15,7 @@
 // @include        https://nappw.dfad.duf.hu/hallgato/*
 // @include        https://host.sdakft.hu/*
 // @include        https://neptun.ejf.hu/ejfhw/*
-// @grant          GM.xmlHttpRequest
-// @grant          GM.getValue
-// @grant          GM.setValue
-// @grant          GM.info
+// @grant          none
 // @run-at      document-start
 // ==/UserScript==
 
